@@ -1,0 +1,109 @@
+{
+  "goal": "Answer a research question with a rigorous, well-cited brief and a stated confidence level",
+  "pillars": [
+    {
+      "theme": "Goal & Scope Mastery",
+      "actions": [
+        "Restate the question in one sentence and confirm it with the user",
+        "Define what a complete answer must contain (claims, evidence, caveats)",
+        "Set the depth/time budget and the required number of sources",
+        "Identify sub-questions the main question decomposes into",
+        "Mark out-of-scope areas explicitly",
+        "Decide the deliverable format (brief, table, memo)",
+        "Note the audience and required reading level",
+        "State the deadline / recency requirement for sources"
+      ]
+    },
+    {
+      "theme": "Context & Knowledge",
+      "actions": [
+        "List what is already known vs. what must be found",
+        "Search for primary sources first, then reputable secondary",
+        "Prefer recent sources for fast-moving topics",
+        "Capture each source's URL, author, date on first read",
+        "Distinguish fact, expert opinion, and speculation",
+        "Look for disconfirming evidence, not just support",
+        "Record direct quotes for any load-bearing claim",
+        "Track a running source list with reliability notes"
+      ]
+    },
+    {
+      "theme": "Planning & Decomposition",
+      "actions": [
+        "Order sub-questions by dependency and importance",
+        "Assign a search strategy to each sub-question",
+        "Timebox each sub-question to avoid rabbit holes",
+        "Decide when parallel search vs. sequential is better",
+        "Plan the synthesis structure before writing",
+        "Set a stop rule: enough evidence for each claim",
+        "Flag sub-questions that may be unanswerable",
+        "Reserve time for verification and a coherence pass"
+      ]
+    },
+    {
+      "theme": "Tools & Actions",
+      "actions": [
+        "Use web/semantic search to find candidate sources",
+        "Fetch and parse full pages for exact quotes",
+        "Use a browser for JS-rendered or blocked pages",
+        "Query domain APIs/datasets when precise data is needed",
+        "Cross-check figures against a second independent source",
+        "Save key artifacts (tables, PDFs) for citation",
+        "Use a spreadsheet/table for multi-item comparisons",
+        "Cite the retrieval date for time-sensitive facts"
+      ]
+    },
+    {
+      "theme": "Execution Quality",
+      "actions": [
+        "Lead with the direct answer, then the evidence",
+        "Attach a citation to every non-obvious claim",
+        "Quantify with numbers and units where possible",
+        "Separate findings from interpretation",
+        "Use plain language; define jargon on first use",
+        "Keep structure scannable (headings, short paragraphs)",
+        "Note the strength of evidence behind each claim",
+        "Remove unsupported or redundant statements"
+      ]
+    },
+    {
+      "theme": "Verification & Validation",
+      "actions": [
+        "Verify each key claim appears in a cited source",
+        "Confirm quotes match the source verbatim",
+        "Re-derive any computed figure independently",
+        "Check dates and versions are current",
+        "Look for a contradicting source before finalizing",
+        "Ensure every citation link actually resolves",
+        "Check the answer covers all sub-questions",
+        "State an overall confidence level with reasons"
+      ]
+    },
+    {
+      "theme": "Error Handling & Resilience",
+      "actions": [
+        "If a source is paywalled, find an equivalent open one",
+        "If search returns nothing, reformulate the query once",
+        "If a page 404s or is empty, escalate to the browser",
+        "If sources conflict, present both and weigh them",
+        "If a fact cannot be verified, label it clearly",
+        "Retry a failed fetch once before abandoning it",
+        "Never fabricate a citation to fill a gap",
+        "Flag when the question cannot be answered with confidence"
+      ]
+    },
+    {
+      "theme": "Communication & Handoff",
+      "actions": [
+        "Open with a one-paragraph executive summary",
+        "Provide a numbered source list with links and dates",
+        "Distinguish what is certain from what is tentative",
+        "List open questions and suggested next steps",
+        "Offer a richer format (table/webpage) when useful",
+        "Ask a clarifying question if scope was ambiguous",
+        "Keep the final brief within the requested length",
+        "State assumptions made during the research"
+      ]
+    }
+  ]
+}
