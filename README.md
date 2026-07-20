@@ -1,14 +1,13 @@
 # 🎯 goal-chunking-agent-architect
 
-> Turn a goal into a **deployable agent** by running it through the **Harada Method** — the Japanese self-reliance goal-achievement system famously used by Shohei Ohtani.
+> Turn a goal into a **deployable agent** by running it through the **Harada Method** — the Japanese self-reliance goal-achievement system.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-SKILL.md-6E56CF)](https://code.claude.com/docs/en/skills)
 [![Works with Claude Code](https://img.shields.io/badge/Claude%20Code-✓-D97757)](https://code.claude.com/docs/en/skills)
 [![Works with GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot%20CLI-✓-24292e)](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contributing)
 
-`goal-chunking-agent-architect` is an **Agent Skill** (the open `SKILL.md` standard) that teaches your
+`goal-chunking-agent-architect` is an **Agent Skill** that teaches your
 coding agent to *design other agents well*. Instead of hand-writing a one-off prompt, you point
 it at a goal and it runs that goal through the five instruments of the Harada Method, producing
 **both** the reasoning worksheets **and** a ready-to-deploy agent definition.
