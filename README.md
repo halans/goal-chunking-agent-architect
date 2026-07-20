@@ -40,7 +40,7 @@ examples lives in [`references/mapping.md`](./references/mapping.md).
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 Clone the repo and drop the skill into your tool's skills directory.
 
@@ -64,7 +64,7 @@ mkdir -p .github/skills && cp -r goal-chunking-agent-architect .github/skills/  
 
 > The directory name must stay `goal-chunking-agent-architect` and the entry file must be `SKILL.md`.
 
-## 💡 Usage
+## Usage
 
 Invoke it by intent, or directly in Claude Code with `/goal-chunking-agent-architect`:
 
@@ -95,7 +95,7 @@ The skill walks through seven phases and keeps you in the loop at the start and 
 
 See a full run in [`examples/example-research-agent.md`](./examples/example-research-agent.md).
 
-## 🧮 The OW64 helper
+## The OW64 helper
 
 `scripts/ow64.py` scaffolds, validates, and renders the Open Window 64 mandala. Pure Python 3
 standard library — no dependencies.
@@ -112,7 +112,7 @@ OW64 file schema:
   "pillars": [ { "theme": "Pillar name", "actions": ["a1", "...", "a8"] } ] }
 ```
 
-## 📁 Repository structure
+## Repository structure
 
 ```
 goal-chunking-agent-architect/
@@ -140,17 +140,7 @@ goal-chunking-agent-architect/
     └── example-research-agent.ow64.md
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome. Good first PRs:
-- New **output targets** (e.g. an OpenAI Assistants or LangGraph template under `templates/output/`).
-- Additional **worked examples** under `examples/`.
-- Refinements to the **default 8 pillars** or the mapping rationale.
-
-Please keep the skill self-contained and dependency-free, and keep `SKILL.md` lean (push detail
-into `references/`). Open an issue to discuss larger changes first.
-
-## 📜 License
+## License
 
 [MIT](./LICENSE). The Harada Method is the work of **Takashi Harada / Harada Education
 Institute**; this project is an independent, unaffiliated adaptation of its publicly described
